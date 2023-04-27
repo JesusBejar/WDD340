@@ -7,15 +7,15 @@
     <title>PHP Motors | Template</title>
 </head>
 <header id="header">
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?> 
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/header.php'; ?> 
 </header>
 <nav id="nav">
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/nav.php'; ?> 
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/nav.php'; ?> 
 </nav>
 <body>
     
 </body>
 <footer id="footer">
-    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?> 
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/footer.php'; ?> 
 </footer>
 </html>
