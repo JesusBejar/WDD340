@@ -24,6 +24,23 @@
         <li>Fuzzy dice</li>
     </ul>
     <img src="images/site/own_today.png" alt="own today sign">
+    <div id="right">
+        <h2>DMC Delorean Reviews</h2>
+        <ol>
+            <li>So fast its almost like traveling in time</li>
+            <li>Coolest ride on the road</li>
+            <li>I'm feeling Marty McFly</li>
+            <li>The most futuristic ride of our day</li>
+            <li>80's livin and I love it</li>
+        </ol>
+    </div>
+    <div id="left">
+        <h2>Delorean upgrades</h2>
+        <img src="images/upgrades/flux-cap.png" alt="flux cap img">
+        <img src="images/upgrades/flame.jpg" alt="flame decals">
+        <img src="images/upgrades/bumper_sticker.jpg" alt="bumper sticker">
+        <img src="images/upgrades/hub-cap.png" alt="hub caps">
+    </div>
 </body>
 <footer>
     <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/WDD340/phpmotors/footer.php'; ?> 
