@@ -12,7 +12,7 @@
 }
 /* all code */
 body {
-    background-image: url('/phpmotors/images/site/small_check.jpg');
+    background-image: url('/WDD340/phpmotors/images/site/small_check.jpg');
     background-color: var(--color6);
     border: solid 5px var(--color4);
     border-radius: 5px 5px;
@@ -57,11 +57,11 @@ li a:hover {
     background-color: var(--color4);
     color: var(--color5);
   }
-#nav li:hover {
+nav li:hover {
+    padding-top: 15px;
     color: var(--color5);
     background-color: var(--color4);
     text-decoration: none;
-    padding-top: 12px;
 }
 h1 {
     background-color: var(--color6);
