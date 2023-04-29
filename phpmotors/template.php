@@ -5,11 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Motors | Template</title>
-<<<<<<< HEAD:htdocs/phpmotors/template.php
-    <link rel="stylesheet" href="/css/templateBase.css">
-=======
+    <!-- <link rel="stylesheet" href="/css/templateBase.css"> -->
     <link rel="stylesheet" href="css/templateBase.css" type="text/css">
->>>>>>> e818834e32f393b3f7a72ae33dc57f55144a6224:phpmotors/template.php
 </head>
 <header>
     <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/WDD340/phpmotors/header.php'; ?> 
