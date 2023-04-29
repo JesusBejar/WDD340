@@ -1,0 +1,29 @@
+:root {
+    --georgia: 'Noto Serif Georgian', serif;
+    --space: 'Space Mono', monospace;
+    --castoro: 'Castoro Titling', cursive;
+
+    --color1: #bababa;
+    --color2: #8d8d8d;
+    --color3: #a6cbeb;
+    --color4: #4c96d7;
+    --color5: #3a3a3a;
+    --color6:#fff;
+}
+main {
+    border: solid var(--color4) 5px;
+}
+#nav {
+    color: var(--color6);
+    background-color: var(--color5);
+    font-style: var(--castoro);
+}
+#nav li:hover {
+    color: var(--color5);
+    background-color: var(--color4);
+}
+#footer {
+    text-align: center;
+    color: var(--color5);
+    background-color: var(--color6);
+}
