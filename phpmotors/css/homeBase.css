@@ -31,7 +31,7 @@ nav {
     font-family: var(--castoro);
     background-color: var(--color5);
     text-decoration: none;
-    width: 100%;
+    width: 310px;
     height: 50px;
 }
 nav ul {
@@ -67,29 +67,22 @@ h1 {
 body {
     background-image: url('/WDD340/phpmotors/images/site/small_check.jpg');
     background-color: var(--color6);
-    border: solid 5px var(--color4);
+    border: solid 5px var(--color6);
     border-radius: 5px 5px;
 }
 /* absolute code frame */
 #absolute {
     color: var(--color4);
     background-color: var(--color6);
-    width: 150px;
-    height: 50px;
-    position: absolute;
-    top: 250px;
-    left: 120px;
 }
 /* top code */
 #top {
-    display: grid;
-    grid-template-columns: 2fr 8fr;
+    display: block;
     background-color: var(--color6);
 }
 /* bottom code - left & right */
 #bottom {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: block;
     text-align: center;
 }
 /* bottom left code */
@@ -98,6 +91,7 @@ body {
     grid-row: 1/2;
 }
 #left {
+    grid-column: 1/2;
     grid-row: 1/2;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -105,16 +99,19 @@ body {
     color: var(--color5);
     background-color: var(--color6);
 }
-picture {
+#left .pic {
     background-color: var(--color4);
     color: var(--color6);
     margin: 10px;
 }
 /* bottom right code */
 #right {
-    grid-row: 0/1;
+    grid-column: 2/3;
     color: var(--color5);
     background-color: var(--color6);
+}
+#right li {
+    padding: 10px;
 }
 /* footer code */
 p {
