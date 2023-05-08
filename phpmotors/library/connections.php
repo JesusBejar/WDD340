@@ -13,7 +13,7 @@ function phpmotorsConnect() {
         if (is_object($link))
         {echo "It worked";}
        } catch(PDOException $e) {
-        echo "It didn't work, error " . $e->getMessage();
+        <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/WDD340/phpmotors/serverError.php'; ?> 
        }
      }
 phpmotorsConnect()
