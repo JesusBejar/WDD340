@@ -26,3 +26,8 @@ SELECT * FROM inventory;
 DELETE FROM inventory
 WHERE invId = 1;
 
+-- Query seis
+SELECT invImage, invThumbnail FROM inventory;
+UPDATE inventory
+SET invImage = CONCAT("/phpmotors", invImage), invThumbnail = CONCAT("/phpmotors", invThumbnail)
+
