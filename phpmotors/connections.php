@@ -18,3 +18,12 @@ function phpmotorsConnect() {
        }
      }
 phpmotorsConnect()
+        $link = new PDO($dsn, $username, $password, $options);
+        return $link;
+       } catch(PDOException $e) {
+        echo 'Sorry, the connection failed';
+        exit;
+       }
+     }
+     
+phpmotorsConnect()
