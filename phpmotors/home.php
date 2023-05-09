@@ -19,7 +19,10 @@
 <body>
     <div id="top">
         <h1>Welcome to PHP Motors</h1>
-        <img src="images/delorean.jpg" alt="delorean pic">
+        <picture >
+                <source srcset="images/small_delorean.jpg" media="(min-width: 300px) and (max-width: 380px)" >
+                <img src="images/delorean.jpg" alt="delorean pic">
+            </picture>
         <div id="absolute">
             <h2>DMC Delorean</h2>
             <ul>
@@ -43,22 +46,30 @@
     </div>
     <div id="left">
     <h2>Delorean upgrades</h2>
-        <picture>
-            <img src="images/upgrades/flux-cap.png" alt="flux cap img">
+        <div>
+            <picture class="pic">
+                <img src="images/upgrades/flux-cap.png" alt="flux cap img">
+            </picture>
             <p>Flux cap</p>
-        </picture>
-        <picture>
-            <img src="images/upgrades/flame.jpg" alt="flame decals">
+        </div>
+        <div>   
+            <picture class="pic">
+                <img src="images/upgrades/flame.jpg" alt="flame decals">
+            </picture>
             <p>Flame decals</p>
-        </picture>
-        <picture>
-            <img src="images/upgrades/bumper_sticker.jpg" alt="bumper sticker">
+        </div>
+        <div>
+            <picture class="pic">
+                <img src="images/upgrades/bumper_sticker.jpg" alt="bumper sticker">
+            </picture>
             <p>Bumper sticker</p>
-        </picture>
-        <picture>
-            <img src="images/upgrades/hub-cap.jpg" alt="hub caps">
+        </div>
+        <div>
+            <picture class="pic">
+                <img src="images/upgrades/hub-cap.jpg" alt="hub caps">
+            </picture>
             <p>Hub caps</p>
-        </picture>
+        </div>
     </div>
     </div>
 </body>

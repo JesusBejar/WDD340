@@ -104,6 +104,10 @@ body {
     color: var(--color6);
     margin: 10px;
 }
+#left div {
+    background-color: var(--color4);
+    margin: 5px;
+}
 /* bottom right code */
 #right {
     grid-column: 2/3;
