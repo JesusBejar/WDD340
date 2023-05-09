@@ -84,3 +84,8 @@ footer {
 p#last-modified {
     margin: 0;
 }
+
+/* found in 500.php */
+.text {
+    background-color: #fff;
+}

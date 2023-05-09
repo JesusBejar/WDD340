@@ -14,16 +14,10 @@ function phpmotorsConnect() {
       {echo "It worked";}
        } catch(PDOException $e) {
          echo "It didn't work";
-        // <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/WDD340/phpmotors/serverError.php'; ?> 
        }
      }
-phpmotorsConnect()
-        $link = new PDO($dsn, $username, $password, $options);
-        return $link;
-       } catch(PDOException $e) {
-        echo 'Sorry, the connection failed';
-        exit;
-       }
-     }
-     
-phpmotorsConnect()
+phpmotorsConnect();
+
+
+
+      // <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/WDD340/phpmotors/serverError.php'; ?> 
